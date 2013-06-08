@@ -5,7 +5,8 @@ var dribble = require('../index.js'),
     config = require('./dribble-config.json'),
     assert = require('assert');
 
-
+try
+{
 dribble.config(config);
 
 
@@ -23,5 +24,17 @@ dribble.warning('This is a warning');
 //
 // log an error
 //
+var err = new Error();
+dribble.error('New error!',err);
 
-dribble.error('New error!',new Error());
+
+//
+// do console logging you can disable
+//
+
+dribble.console(process.version,'my node version',__dirname,'this path');
+dribble.info('All tests passed!');
+}
+catch (e) {
+    assert.ifError(e);
+}

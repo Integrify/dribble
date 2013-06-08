@@ -1,4 +1,4 @@
-node-dribble
+dribble
 ============
 
-Domain aware logger for node.js apps
+Logging module for node.js apps.  Baked with opinions.  Domain-aware.

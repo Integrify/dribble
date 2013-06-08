@@ -27,7 +27,7 @@
             "color":"white"
         },
         "console":{
-            "disabled":true
+            "disabled":false
         }
 
     }
