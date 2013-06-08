@@ -9,6 +9,8 @@ try
 {
 dribble.config(config);
 
+dribble.info('I am gonna test grouping');
+
 
 //
 // logging some info
