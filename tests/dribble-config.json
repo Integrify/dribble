@@ -1,0 +1,34 @@
+{
+    "activeConfig":"debug",
+    "rootPath":"./logs",
+    "fileDateFormat":"YYYY_MM_DD",
+    "production":{
+
+    },
+    "debug":{
+        "error":{
+            "transport":["console", "file"],
+            "color":"red",
+            "path":"/{date}_error_{name}.log",
+            "include":["stack", "module"]
+        },
+        "warning":{
+            "transport":["console"],
+            "color":"yellow"
+        },
+        "info":{
+            "transport":["console", "file"],
+            "color":"green",
+            "disabled":false,
+            "path":"/{date}_info_{name}.log"
+        },
+        "milestone":{
+            "transport":["console"],
+            "color":"white"
+        },
+        "console":{
+            "disabled":true
+        }
+
+    }
+}
