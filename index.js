@@ -1,5 +1,5 @@
 
-var Dribble = require('./lib/prototype.js'),
+var Dribble = require('./lib/Dribble.js'),
     _ = require('underscore'),
     dribble = new Dribble();
 

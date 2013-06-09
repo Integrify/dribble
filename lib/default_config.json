@@ -1,0 +1,27 @@
+{
+    "activeConfig":"development",
+    "groupSeparator":" -> ",
+    "groupLevelSeparator":"/",
+    "development":{
+        "error":{
+            "transport":["console"],
+            "color":"red",
+            "include":["stack"]
+        },
+        "warning":{
+            "transport":["console"],
+            "color":"yellow"
+        },
+        "info":{
+            "transport":["console"],
+            "color":"green"
+        },
+        "milestone":{
+            "transport":["console"],
+            "color":"blue"
+        },
+        "console":{
+            "disabled":false
+        }
+    }
+}
