@@ -1,6 +1,6 @@
 {
     "name":"dribble",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "description":"Multi-purpose logger with opinions and domain awareness",
     "main":"index.js",
     "scripts":{
@@ -21,7 +21,6 @@
     },
     "dependencies":{
         "underscore":"1.x",
-        "node-uuid":"1.x",
         "moment":"1.x"
     }
 }
