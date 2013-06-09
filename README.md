@@ -1,3 +1,11 @@
+dribble
+============
+
+Logging module for node.js apps.  Baked with opinions.  Domain-aware.  See an open lane.  Get to the basket.   
+
+## Install
+     npm install dribble
+     
 ## Purpose
 Dribble is a singleton, event emitter-based module geared for the development of large applications.   
 
@@ -26,3 +34,4 @@ Dribble is a singleton, event emitter-based module geared for the development of
     dribble.groupEnd('DWade');
     
     dribble.info('Blocked by Duncan!!!');  //prints "Blocked by Duncan"
+
