@@ -27,6 +27,8 @@ try {
     dribble.groupEnd('foo');
     dribble.info('goodbye foo!');
 
+  dribble.console('Group test passed');
+
 }
 catch (e) {
     assert.ifError(e);

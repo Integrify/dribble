@@ -7,7 +7,8 @@ var spawn = require('child_process').spawn
 
 var tests = [
     'test-simple.js',
-    'test-group.js'
+    'test-group.js',
+    'test-domain.js'
 ];
 
 

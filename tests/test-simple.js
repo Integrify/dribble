@@ -35,7 +35,7 @@ dribble.error('New error!',err);
 //
 
 dribble.console(process.version,'my node version',__dirname,'this path');
-dribble.info('All tests passed!');
+dribble.console('Simple test passed.');
 }
 catch (e) {
     assert.ifError(e);
