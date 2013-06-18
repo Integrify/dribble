@@ -8,9 +8,10 @@
     "debug":{
         "error":{
             "transport":["console", "file"],
+            "format": "plain",
             "color":"red",
-            "path":"/{date}_error_{name}.log",
-            "include":["stack", "module"]
+            "path":"/{date}_error_{target}.log",
+            "include":["stack"]
         },
         "warning":{
             "transport":["console"],
@@ -19,8 +20,9 @@
         "info":{
             "transport":["console", "file"],
             "color":"green",
+            "format":"json",
             "disabled":false,
-            "path":"/{date}_info_{name}.log"
+            "path":"/{date}_info_{target}.log"
         },
         "milestone":{
             "transport":["console"],
