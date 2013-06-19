@@ -11,7 +11,8 @@
             "format": "plain",
             "color":"red",
             "path":"/{date}_error_{target}.log",
-            "include":["stack"]
+            "include":["stack"],
+            "exclude": ["date"]
         },
         "warning":{
             "transport":["console"],
