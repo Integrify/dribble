@@ -1,6 +1,6 @@
 {
     "name":"dribble",
-    "version":"0.0.4",
+    "version":"0.0.5",
     "description":"Multi-purpose logger with opinions and domain awareness",
     "main":"index.js",
     "scripts":{

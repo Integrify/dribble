@@ -27,7 +27,7 @@
         },
         "milestone":{
             "transport":["console"],
-            "color":"white"
+            "color":"blue"
         },
         "console":{
             "disabled":false
