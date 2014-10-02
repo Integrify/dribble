@@ -1,6 +1,6 @@
 {
     "name":"dribble",
-    "version":"0.1.11",
+    "version":"0.1.12",
     "description":"Multi-purpose logger",
     "main":"index.js",
     "scripts":{
@@ -25,6 +25,6 @@
     "dependencies":{
         "underscore":"1.x",
         "moment":"1.x",
-        "js-yaml": "2.x"
+        "js-yaml": "3.x"
     }
 }
