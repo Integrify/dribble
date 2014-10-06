@@ -25,6 +25,6 @@
     "dependencies":{
         "underscore":"1.x",
         "moment":"1.x",
-        "js-yaml": "2.x"
+        "js-yaml": "3.x"
     }
 }
