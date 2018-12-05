@@ -1,30 +1,30 @@
 {
-    "name":"dribble",
-    "version":"0.1.12",
-    "description":"Multi-purpose logger",
-    "main":"index.js",
-    "scripts":{
-        "test":"node tests/run.js"
+    "name": "dribble",
+    "version": "0.1.12",
+    "description": "Multi-purpose logger",
+    "main": "index.js",
+    "scripts": {
+        "test": "node tests/run.js"
     },
-    "repository":{
-        "type":"git",
-        "url":"https://github.com/Integrify/node-dribble"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Integrify/node-dribble"
     },
-    "keywords":[
+    "keywords": [
         "logger",
         "domains"
     ],
     "author": "Integrify Inc. <info@integrify.com>",
-      "maintainers": [
+    "maintainers": [
         "pdillon <pdillon@integrify.com>"
-      ],
-    "license":"MIT",
-    "bugs":{
-        "url":"https://github.com/Integrify/node-dribble"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Integrify/node-dribble"
     },
-    "dependencies":{
-        "underscore":"1.x",
-        "moment":"1.x",
-        "js-yaml": "3.x"
+    "dependencies": {
+        "js-yaml": "3.x",
+        "moment": "^2.22.2",
+        "underscore": "1.x"
     }
 }
