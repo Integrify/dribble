@@ -12,7 +12,8 @@
     },
     "keywords": [
         "logger",
-        "domains"
+        "domains",
+        "logging"
     ],
     "author": "Integrify Inc. <info@integrify.com>",
     "maintainers": [
@@ -27,4 +28,5 @@
         "moment": "^2.22.2",
         "underscore": "1.x"
     }
+
 }
